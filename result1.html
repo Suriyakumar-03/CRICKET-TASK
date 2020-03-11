@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="resultscore.js"></script>
+</head>
+<style>
+body {
+  background-image: url('wallpapersden.com_ms-dhoni-untold-story-poster_1920x1080.jpg');
+}
+                    /*****                   TEAM1                                       ****/
+
+
+
+#team1{
+height: 200px; 
+width: 200px;
+border-radius: 10px;
+background-color:cyan;  
+font-size: 30px;
+color: black;
+position: absolute;
+top:129px;
+left:173px;
+}
+.t1over1{
+height:20px;
+width:30px;
+position: absolute;
+left:36px;
+top:69px;
+font-size:10px ;
+}
+.t1over2{
+height:20px;
+width:30px;
+position: absolute;
+left:36px;
+top:105px;
+font-size:10px ;
+}
+.t1over3{
+height:20px;
+width:30px;
+position: absolute;
+left:36px;
+top:142px;
+font-size:10px ;
+}
+                    /************************            team2       *************************/
+#team2{
+height: 200px;
+width: 200px;
+border-radius: 10px;
+background-color: cyan;
+font-size: 30px;
+color: black;
+position: absolute;
+right:173px;
+top:129px;
+}
+.t2over1{
+height:20px;
+width:30px;
+position: absolute;
+left:36px;
+top:69px;
+font-size:10px ;
+}
+.t2over2{
+height:20px;
+width:30px;
+position: absolute;
+left:36px;
+top:105px;
+font-size:10px ;
+}
+.t2over3{
+height:20px;
+width:30px;
+position: absolute;
+left:36px;
+top:142px;
+font-size:10px ;
+}
+p{
+position: absolute;
+left:52px;
+top:-19px;
+}
+#teamchaps{
+display:inline-block;
+position: absolute;
+left: 520px;
+height: 88px;
+width: 304px;
+top: 320px;
+border-radius: 10px;
+box-shadow: none;
+background-color: chocolate;
+}
+
+
+</style>
+<body>
+                             <!-------------------TEAM1 ------------------>   
+    <div id="teamA">
+        <div id="team1">
+           <p>TEAM1</p>
+             <div class="t1over1">
+               <button id="teamAover1" onclick="team1('teamAover1','team1over1','1STOVER:')">1STOVER:</button>
+             </div>
+             <div class="t1over2">
+              <button type="button" id="teamAover2" onclick="team1('teamAover2','team1over2','2NDOVER:')">2NDOVER:</button>
+             </div>
+             <div class="t1over3">
+              <button type="button" id="teamAover3" onclick="team1('teamAover3','team1over3','3RDOVER:')">3RDOVER:</button>
+             </div>
+         </div>
+    </div>
+                             <!-------------------TEAM2 ------------------>   
+<div id="team2">
+    <p>TEAM2</p>
+        <div class="t2over1">
+             <button id="teamBover1" onclick="team1('teamBover1','team2over1','1STOVER:')">1STOVER:</button>
+        </div>
+        <div class="t2over2">
+            <button type="button" id="teamBover2" onclick="team1('teamBover2','team2over2','2NDOVER:')">2NDOVER:</button>
+        </div>
+        <div class="t2over3">
+            <button type="button" id="teamBover3" onclick="team1('teamBover3','team2over3','3RDOVER:')">3RDOVER:</button>
+        </div>
+    
+</div>
+                                <!------------------- winner ------------------>   
+<div id="winner">
+    <button id="teamchaps" onclick="team('teamchaps','TeamAwinner','TeamBwinner','WINNER:')">WINNER</button>
+</div>
+
+
+
+
+
+
+    </body>
+    </html>
+    
